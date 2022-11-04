@@ -74,7 +74,7 @@ public class Hangman {
         Scanner scan = new Scanner(System.in);
 
         String word = randomWord(words);
-        System.out.println("Psssst! The word is " + word);
+        System.out.println("Psssst! The word is: " + word);
 
         char[] placeholders = new char[word.length()];
         for (int i = 0; i < placeholders.length; i++) {
