@@ -13,7 +13,8 @@ public class Hangman {
     "tiger", "toad", "trout", "turkey", "turtle", "weasel", "whale", "wolf",
     "wombat", "zebra"};
 
-    public static String[] gallows = {"+---+\n" +
+    public static String[] gallows = {
+    "+---+\n" +
     "|   |\n" +
     "    |\n" +
     "    |\n" +
@@ -168,9 +169,3 @@ public class Hangman {
     }
 
 }
-
-
-
-
-
-
